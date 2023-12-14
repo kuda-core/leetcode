@@ -5,7 +5,6 @@ class Solution {
         String ret = "";
         while(columnNumber>0) {
             int remainder = (columnNumber - 1) % 26;
-            System.out.println("A + " + remainder);
             ret += (char)('A' + remainder);
             columnNumber = (columnNumber - 1) / 26;
         }
